@@ -58,3 +58,24 @@ class MilkShelf(Shelf):
     def get_milk_cord(self):
         return self.get_last_cord()
 
+
+cup = CupShelf(first=posx(100,200,0,0,0,0), interval=50)
+cup.push()
+pos = cup.get_cup_cord()  #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
